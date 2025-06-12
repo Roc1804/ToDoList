@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Style dasar untuk layout halaman */
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+}
+.container {
+    background-color: #fff;
+    padding: 25px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 700px;
+}
+h1 {
+    text-align: center;
+    color: #4a4a4a;
+    margin-bottom: 20px;
+}
+form {
+    display: flex;
+    margin-bottom: 25px;
+}
+input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.empty-message {
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fafafa;
+    border: 1px dashed #ddd;
+}
+
+/* Style khusus untuk tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+}
+thead th {
+    background-color: #f8f8f9;
+    font-weight: 600;
+    color: #555;
+}
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Style untuk teks tugas dan status (bukan tombol) */
+.task-text.completed {
+    text-decoration: line-through;
+    color: #aaa;
+}
+.status {
+    font-size: 0.9em;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-weight: 500;
+    text-align: center;
+    display: inline-block;
+}
+.status-completed {
+    background-color: #e0f2f1;
+    color: #00796b;
+}
+.status-pending {
+    background-color: #fff3e0;
+    color: #ef6c00;
+}
