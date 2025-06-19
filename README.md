@@ -8,6 +8,7 @@ Aplikasi sederhana berbasis PHP untuk mencatat tugas harian
 - Tandai tugas selesai
 - hapus tugas
 - ceklis tugas untuk mengubah status jadi selesai
+- edit tugas
 
 ## Struktur Folder
 - 'index.php' - halaman utama
